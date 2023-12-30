@@ -391,10 +391,10 @@ typedef int socklen_t;
 
 //~ NOTE(rjf): Macros and pragmase stuff that have to be put here for various
 // reasons
-#include <stdlib.h>
-#include <stdio.h>
-#include <string.h>
-#include "4coder_default_include.cpp"
+// #include <stdlib.h>
+// #include <stdio.h>
+// #include <string.h>
+// #include "4coder_default_include.cpp"
 #pragma warning(disable : 4706)
 #pragma warning(disable : 4456)
 #define COMMAND_SERVER_PORT 4041
@@ -402,55 +402,56 @@ typedef int socklen_t;
 #define COMMAND_SERVER_AUTO_LAUNCH_IF_FILE_PRESENT "project_namespaces.txt"
 
 //~ NOTE(rjf): @f4_headers
-#include "4coder_fleury_ubiquitous.h"
-#include "4coder_fleury_audio.h"
-#include "4coder_fleury_lang.h"
-#include "4coder_fleury_index.h"
-#include "4coder_fleury_colors.h"
-#include "4coder_fleury_render_helpers.h"
-#include "4coder_fleury_brace.h"
-#include "4coder_fleury_error_annotations.h"
-#include "4coder_fleury_divider_comments.h"
-#include "4coder_fleury_power_mode.h"
-#include "4coder_fleury_cursor.h"
-#include "4coder_fleury_plot.h"
-#include "4coder_fleury_calc.h"
-#include "4coder_fleury_lego.h"
-#include "4coder_fleury_pos_context_tooltips.h"
-#include "4coder_fleury_code_peek.h"
-#include "4coder_fleury_recent_files.h"
-#include "4coder_fleury_bindings.h"
-#include "4coder_fleury_base_commands.h"
-#if OS_WINDOWS
-#include "4coder_fleury_command_server.h"
-#endif
-#include "4coder_fleury_hooks.h"
+// #include "4coder_fleury_ubiquitous.h"
+// #include "4coder_fleury_audio.h"
+// #include "4coder_fleury_lang.h"
+// #include "4coder_fleury_index.h"
+// #include "4coder_fleury_colors.h"
+// #include "4coder_fleury_render_helpers.h"
+// #include "4coder_fleury_brace.h"
+// #include "4coder_fleury_error_annotations.h"
+// #include "4coder_fleury_divider_comments.h"
+// #include "4coder_fleury_power_mode.h"
+// #include "4coder_fleury_cursor.h"
+// #include "4coder_fleury_plot.h"
+// #include "4coder_fleury_calc.h"
+// #include "4coder_fleury_lego.h"
+// #include "4coder_fleury_pos_context_tooltips.h"
+// #include "4coder_fleury_code_peek.h"
+// #include "4coder_fleury_recent_files.h"
+// #include "4coder_fleury_bindings.h"
+// #include "4coder_fleury_base_commands.h"
+// #if OS_WINDOWS
+// #include "4coder_fleury_command_server.h"
+// #endif
+// #include "4coder_fleury_hooks.h"
 
 //~ NOTE(rjf): @f4_src
-#include "4coder_fleury_ubiquitous.cpp"
-#include "4coder_fleury_audio.cpp"
-#include "4coder_fleury_lang.cpp"
-#include "4coder_fleury_index.cpp"
-#include "4coder_fleury_colors.cpp"
-#include "4coder_fleury_render_helpers.cpp"
-#include "4coder_fleury_brace.cpp"
-#include "4coder_fleury_error_annotations.cpp"
-#include "4coder_fleury_divider_comments.cpp"
-#include "4coder_fleury_power_mode.cpp"
-#include "4coder_fleury_cursor.cpp"
-#include "4coder_fleury_plot.cpp"
-#include "4coder_fleury_calc.cpp"
-#include "4coder_fleury_lego.cpp"
-#include "4coder_fleury_pos_context_tooltips.cpp"
-#include "4coder_fleury_code_peek.cpp"
-#include "4coder_fleury_recent_files.cpp"
-#include "4coder_fleury_bindings.cpp"
-#include "4coder_fleury_base_commands.cpp"
-#if OS_WINDOWS
-#include "4coder_fleury_command_server.cpp"
-#endif
+// #include "4coder_fleury_ubiquitous.cpp"
+// #include "4coder_fleury_audio.cpp"
+// #include "4coder_fleury_lang.cpp"
+// #include "4coder_fleury_index.cpp"
+// #include "4coder_fleury_colors.cpp"
+// #include "4coder_fleury_render_helpers.cpp"
+// #include "4coder_fleury_brace.cpp"
+// #include "4coder_fleury_error_annotations.cpp"
+// #include "4coder_fleury_divider_comments.cpp"
+// #include "4coder_fleury_power_mode.cpp"
+// #include "4coder_fleury_cursor.cpp"
+// #include "4coder_fleury_plot.cpp"
+// #include "4coder_fleury_calc.cpp"
+// #include "4coder_fleury_lego.cpp"
+// #include "4coder_fleury_pos_context_tooltips.cpp"
+// #include "4coder_fleury_code_peek.cpp"
+// #include "4coder_fleury_recent_files.cpp"
+// #include "4coder_fleury_bindings.cpp"
+// #include "4coder_fleury_base_commands.cpp"
+// #if OS_WINDOWS
+// #include "4coder_fleury_command_server.cpp"
+// #endif
 #include "4coder_fleury_casey.cpp"
 #include "4coder_fleury_hooks.cpp"
+#include "4coder_fleury_lang_list.h"
 
 //~ NOTE(rjf): Plots Demo File
 #include "4coder_fleury_plots_demo.cpp"

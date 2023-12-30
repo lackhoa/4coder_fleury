@@ -1,6 +1,8 @@
 #ifndef FCODER_FLEURY_LANG_H
 #define FCODER_FLEURY_LANG_H
 
+#include "4coder_fleury_ubiquitous.h"
+
 struct F4_Index_ParseCtx;
 
 //~ NOTE(rjf): Indexes an entire file of a language and adds stuff to the code index.

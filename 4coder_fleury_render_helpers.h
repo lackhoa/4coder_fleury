@@ -3,6 +3,8 @@
 #ifndef FCODER_FLEURY_RENDER_HELPERS_H
 #define FCODER_FLEURY_RENDER_HELPERS_H
 
+#include "4coder_fleury_ubiquitous.h"
+
 enum F4_RangeHighlightKind
 {
     F4_RangeHighlightKind_Whole,

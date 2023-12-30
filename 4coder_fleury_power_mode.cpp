@@ -1,4 +1,7 @@
 //~ NOTE(rjf): Power Mode Implementation
+#pragma once
+
+#include "4coder_fleury_power_mode.h"
 
 Audio_Clip f4_powermode_music = {};
 Audio_Control f4_powermode_music_ctrl = {};

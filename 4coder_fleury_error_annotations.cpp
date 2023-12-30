@@ -1,5 +1,9 @@
 //~ NOTE(rjf): Error annotations
 
+#include "4coder_fleury_error_annotations.h"
+#include "4coder_fleury_colors.h"
+#include "4coder_fleury_render_helpers.h"
+
 function void
 F4_RenderErrorAnnotations(Application_Links *app, Buffer_ID buffer,
                           Text_Layout_ID text_layout_id,

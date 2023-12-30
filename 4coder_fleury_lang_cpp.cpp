@@ -1,4 +1,7 @@
 
+#include "4coder_fleury_index.h"
+#include "4coder_fleury_lang.cpp"
+
 internal void
 F4_CPP_ParseMacroDefinition(F4_Index_ParseCtx *ctx)
 {

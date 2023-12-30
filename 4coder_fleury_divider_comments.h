@@ -3,6 +3,8 @@
 #ifndef FCODER_FLEURY_DIVIDER_COMMENTS_H
 #define FCODER_FLEURY_DIVIDER_COMMENTS_H
 
+#include "4coder_fleury_ubiquitous.h"
+
 function void F4_RenderDividerComments(Application_Links *app, Buffer_ID buffer, View_ID view,
                                        Text_Layout_ID text_layout_id);
 

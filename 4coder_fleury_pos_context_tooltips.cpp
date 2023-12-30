@@ -1,3 +1,9 @@
+
+#include "4coder_fleury_pos_context_tooltips.h"
+#include "4coder_fleury_colors.h"
+#include "4coder_fleury_lang.cpp"
+#include "4coder_fleury_render_helpers.cpp"
+
 internal Vec2_f32
 _F4_PosContext_RenderDefinitionTokens(Application_Links *app, Face_ID face,
                                       String_Const_u8 backing_string,

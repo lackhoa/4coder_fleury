@@ -3,6 +3,8 @@
 #ifndef FCODER_FLEURY_INDEX_H
 #define FCODER_FLEURY_INDEX_H
 
+#include "4coder_fleury_ubiquitous.h"
+
 enum F4_Index_NoteKind
 {
     F4_Index_NoteKind_Null,

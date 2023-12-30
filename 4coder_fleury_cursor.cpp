@@ -1,4 +1,9 @@
 //~ NOTE(rjf): Cursor rendering
+#pragma once
+
+#include "4coder_fleury_colors.cpp"
+#include "4coder_fleury_cursor.h"
+#include "4coder_fleury_power_mode.cpp"
 
 global int global_cursor_count = 1;
 global i64 global_cursor_positions[16] = {0};
@@ -70,8 +75,8 @@ C4_RenderCursorSymbolThingy(Application_Links *app, Rect_f32 rect,
 		
 		draw_rectangle(app, end_bottom, roundness, color);
 		draw_rectangle(app, end_side, roundness, color);
-	}
-	else if(type == cursor_insert)
+    }
+    else if(type == cursor_insert)
 	{
 		Rect_f32 side;
 		side.x0 = rect.x0;

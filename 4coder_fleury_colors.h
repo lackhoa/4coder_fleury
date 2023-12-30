@@ -3,6 +3,8 @@
 #ifndef FCODER_FLEURY_COLORS_H
 #define FCODER_FLEURY_COLORS_H
 
+#include "4coder_fleury_ubiquitous.h"
+
 CUSTOM_ID(colors, fleury_color_syntax_crap);
 CUSTOM_ID(colors, fleury_color_operators);
 CUSTOM_ID(colors, fleury_color_inactive_pane_overlay);

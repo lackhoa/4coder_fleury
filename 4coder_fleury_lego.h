@@ -3,6 +3,8 @@
 #ifndef FCODER_FLEURY_LEGO_H
 #define FCODER_FLEURY_LEGO_H
 
+#include "4coder_fleury_ubiquitous.h"
+
 enum F4_LegoKind
 {
     F4_LegoKind_Null,

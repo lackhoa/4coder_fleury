@@ -3,6 +3,8 @@
 #ifndef FCODER_FLEURY_CALC_H
 #define FCODER_FLEURY_CALC_H
 
+#include "4coder_fleury_ubiquitous.h"
+
 function void F4_CLC_Tick(Frame_Info frame_info);
 function void F4_CLC_RenderCode(Application_Links *app, Buffer_ID buffer,
                                 View_ID view, Text_Layout_ID text_layout_id,

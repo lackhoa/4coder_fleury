@@ -1,4 +1,8 @@
 
+#include "4coder_fleury_code_peek.h"
+#include "4coder_fleury_render_helpers.cpp"
+#include "4coder_fleury_colors.cpp"
+
  global b32 global_code_peek_open = 0;
 
 function void

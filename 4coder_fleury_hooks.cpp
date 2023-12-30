@@ -1,5 +1,16 @@
 //~ NOTE(rjf): Buffer Render
 
+#include "4coder_fleury_hooks.h"
+#include "4coder_fleury_colors.cpp"
+#include "4coder_fleury_brace.cpp"
+#include "4coder_fleury_error_annotations.cpp"
+#include "4coder_fleury_divider_comments.cpp"
+#include "4coder_fleury_cursor.cpp"
+#include "4coder_fleury_calc.cpp"
+#include "4coder_fleury_pos_context_tooltips.cpp"
+#include "4coder_fleury_code_peek.cpp"
+#include "4coder_fleury_recent_files.cpp"
+
 function void
 F4_RenderBuffer(Application_Links *app, View_ID view_id, Face_ID face_id,
                 Buffer_ID buffer, Text_Layout_ID text_layout_id,

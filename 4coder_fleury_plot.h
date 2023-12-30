@@ -3,6 +3,8 @@
 #ifndef FCODER_FLEURY_PLOT_H
 #define FCODER_FLEURY_PLOT_H
 
+#include "4coder_fleury_ubiquitous.h"
+
 enum Plot2DMode
 {
     Plot2DMode_Line,

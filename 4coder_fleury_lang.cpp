@@ -1,3 +1,9 @@
+
+#pragma once
+
+#include "4coder_fleury_lang.h"
+#include "4coder_fleury_index.h"
+
 global F4_Language_State f4_langs = {};
 
 internal F4_Language *
@@ -135,4 +141,4 @@ F4_Language_LexFullInput_NoBreaks(Application_Links *app, F4_Language *language,
     return list;
 }
 
-#include "4coder_fleury_lang_list.h"
+// #include "4coder_fleury_lang_list.h"

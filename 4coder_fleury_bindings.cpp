@@ -1,3 +1,7 @@
+#pragma once
+
+#include "4coder_fleury_base_commands.cpp"
+#include "4coder_fleury_lego.cpp"
 
 struct Command_Map_ID_Pair
 {
@@ -68,6 +72,8 @@ F4_ImplicitMap(Application_Links *app, String_ID lang, String_ID mode, Input_Eve
 
 
 //~ NOTE(rjf): Bindings
+
+CUSTOM_COMMAND_SIG(fleury_startup);
 
 function void
 F4_SetAbsolutelyNecessaryBindings(Mapping *mapping)

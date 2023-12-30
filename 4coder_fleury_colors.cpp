@@ -1,3 +1,8 @@
+#pragma once
+
+#include "4coder_fleury_ubiquitous.cpp"
+#include "4coder_fleury_colors.h"
+#include "4coder_fleury_lang.cpp"
 
 typedef u32 F4_SyntaxFlags;
 enum

@@ -1,3 +1,8 @@
+
+#include "4coder_fleury_lego.h"
+#include "4coder_fleury_colors.h"
+#include "4coder_fleury_render_helpers.h"
+
 #define F4_MAX_LEGOS 12
 global F4_Lego f4_legos[F4_MAX_LEGOS];
 

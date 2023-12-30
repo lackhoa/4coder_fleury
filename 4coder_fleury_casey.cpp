@@ -1,3 +1,8 @@
+
+#include "4coder_fleury_bindings.cpp"
+#include "4coder_fleury_audio.h"
+#include "4coder_fleury_cursor.cpp"
+
 Audio_Clip PowerWAV = {};
 Audio_Clip HitWAV = {};
 Audio_Control PowerWAVControl = {};
@@ -54,7 +59,7 @@ CUSTOM_COMMAND_SIG(casey_switch_to_keybinding_0)
 CUSTOM_DOC("WENSLEYDALE.")
 {
 	switch_to_keybinding_0(app);
-	global_hide_region_boundary = true;
+    global_hide_region_boundary = true;
 }
 
 CUSTOM_COMMAND_SIG(casey_switch_to_keybinding_1)

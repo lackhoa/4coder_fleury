@@ -3,6 +3,8 @@
 #ifndef FCODER_FLEURY_POWER_MODE_H
 #define FCODER_FLEURY_POWER_MODE_H
 
+#include "4coder_fleury_ubiquitous.h"
+
 //~ NOTE(rjf): Power Mode API
 
 struct Particle

@@ -1,3 +1,6 @@
+#pragma once
+
+#include "4coder_fleury_ubiquitous.h"
 
 static struct
 {

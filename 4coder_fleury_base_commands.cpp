@@ -1,4 +1,8 @@
 
+#include "4coder_fleury_ubiquitous.h"
+#include "4coder_fleury_power_mode.cpp"
+#include "4coder_fleury_index.h"
+
 //~ NOTE(rjf): @f4_base_commands
 
 // TODO(rjf): Remove once Allen adds official version.

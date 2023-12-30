@@ -1,4 +1,8 @@
 
+#include "4coder_fleury_index.h"
+#include "4coder_fleury_lang.cpp"
+#include "4coder_fleury_colors.h"
+
 struct F4_MD_LexerState
 {
     String_Const_u8 string;
